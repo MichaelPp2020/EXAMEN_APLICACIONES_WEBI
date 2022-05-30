@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EXAMEN</title>
+  </head>
+  <body  background="https://png.pngtree.com/background/20210711/original/pngtree-cute-children-s-drawing-style-car-rental-poster-board-vector-background-picture-image_1109682.jpg">
+    <main>
+        <CENTEr>
+      <form action="" method="get" id="formulario">
+        <class = "form">
+          <h1>Ingreso de Datos de Vehicular</h1>
+          <label for="codigoV">Ingrese el codigo:</label>
+          <div class="datos">  
+          <input type="text" name="" id="codigoV"            
+            placeholder="Digite el codigo" onclick="ValidarVehiculo(codigo)"/>      
+          </div>
+          <label for="marcaV">Marca:</label>
+          <div class="datos">  
+          <input type="text" name="" id="marcaV"
+          placeholder="Digite la marca" onclick="ValidarVehiculo(marca)"/>    
+          </div>
+          <label for="modeloV">Modelo:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="modeloV" 
+          placeholder="Ingrese Modelo" onclick="ValidarVehiculo(modelo)"/>         
+          </div>
+          <label for="anioV">Anio:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="aniooV" 
+          placeholder="Ingrese anio" onclick="ValidarVehiculo(anio)"/>         
+          </div>
+          <label for="fechaIV">fecha inicial:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="fechaIV" 
+          placeholder="Ingrese fecha inicial" onclick="ValidarVehiculo(fechaInicial)"/>         
+          </div>
+          <label for="fechaFV">fecha final:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="fechaFV" 
+          placeholder="Ingrese fecha final" onclick="ValidarVehiculo(fechaFinal)"/>         
+          </div>
+          <br>
+          <button type="submit" onclick="ValidarVehiculo()">Validacion de Vehiculo</button>
+        </div>
+      </form>
+      <center><img src="https://moodledanu.uleam.edu.ec/pluginfile.php/1/theme_klass/footerlogo/1648734809/logo_ULEAM_2017_horizontal.png" width="300" height="100"></center>
+    </CENTEr>
+      <script src="valida-vehiculo.js"></script>
+    </main>
+  </body>
+  </html>
